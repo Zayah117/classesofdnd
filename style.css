@@ -1,0 +1,47 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+} 
+
+/* for the text at the top of the page */
+.title {
+	font-size: 48px;
+	font-family: Georgia;
+}
+
+/* this is the entire block containing the picture and the text for each class */
+.class {
+	font-family: Georgia;
+	display: flex; /* this makes it so the texts appears next to the image */
+	display: -webkit-flex;
+}
+
+/* the image */
+.classimage {
+	height: 320px;
+	width: 320px;
+	margin-right: 10px;
+	margin-bottom: 30px;
+	border:10px solid #53442d;
+}
+
+/* the class name */
+.classname {
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+/* i write a little story about each class */
+.story {
+	color: #aa0808;
+	font-style: italic;
+	max-width: 300px;
+	padding-bottom: 5px;
+}
+
+/* a discription of the class and what kind of character it makes */
+.discription {
+	max-width: 800px;
+}
